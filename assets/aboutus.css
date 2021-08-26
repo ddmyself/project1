@@ -1,0 +1,196 @@
+/*關於我們*/
+body{
+     width:100%;
+     margin:0 auto;
+     font-family:Microsoft JhengHei;
+     }
+     
+    #header{
+	background-color: #77AAAD;
+	padding: 10px;
+	text-align:left;
+	font-family: DFKai-SB;
+			}
+
+     #nav{
+     background-color: #6E7783;
+     padding: 5px;
+     text-align:left;
+     font-size: 18px;
+     word-spacing: 300px;
+     font-family: DFKai-SB;
+     }
+     
+     #section_aboutus{
+     width:100%;
+     height:1700px;
+     background-color:#D8E6E7;
+     line-height: 1.5em;
+     padding: 20px;
+     float:right;
+     }
+
+     #footer{
+     padding:0px;
+     background-color:#9DC3C1;
+     clear:both;
+     }
+    .end{
+     text-align:center;
+     }
+     #header1{
+		text-align:left;
+		font-size: 30px;
+		padding-left:10px;
+		font-family: DFKai-SB;
+		
+}
+     #nav1 ul li{
+     display: inline;
+	font-weight: bold;
+	font-size: 25px;
+     }
+
+
+p.title{
+position:absolute;
+left:45%;
+	top:20%;
+font-size: 36px;
+font-family:"微軟正黑體";
+text-shadow: 5px 3px 4px #7C7877;
+padding-bottom: 7%;
+}
+
+a:link {
+color:#FFFFFF;
+text-decoration:none;
+}
+a:visited {
+color:#FFFFFF;
+text-decoration:none;
+}
+
+.img_member1{
+	position: absolute;
+	left:16%;
+	top:34%;
+}
+.img_member1_label{
+	position: absolute;
+	left:19%;
+	top:45%;
+}
+.img_member2{
+	position: absolute;
+	left:65%;
+	top:76%;
+}
+.img_member3{
+	position: absolute;
+	left:17%;
+	top:116%;
+}
+.img_member4{
+	position: absolute;
+	left:65%;
+	top:160%;
+}
+.text_member1{
+	color: #8283a7;
+	position: absolute;
+	left:34%;
+	top:41%;
+	border:5px dashed #a7a7a2 ;
+	border-radius: 10vw 3vw 10vw 3vw / 3vw 10vw 3vw 10vw;
+	font-size: 24px;
+	font-family: Microsoft JhengHei;
+	font-weight: bold;
+	text-align: center;
+	padding:30px;
+	line-height: 110%;
+	letter-spacing: 1px;
+}
+.text_member2{
+	color: #8283a7;
+	position: absolute;
+	left:18%;
+	top:85%;
+	border:5px dashed #a7a7a2 ;
+	border-radius: 3vw 10vw 3vw 10vw / 10vw 3vw 10vw 3vw;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Microsoft JhengHei;
+	text-align: center;
+	padding:30px;
+	line-height: 110%;
+	letter-spacing: 1px;
+}
+.text_member3{
+	color: #8283a7;
+	position: absolute;
+	left:35%;
+	top:125%;
+	border:5px dashed #a7a7a2 ;
+	border-radius: 10vw 3vw 10vw 3vw / 3vw 10vw 3vw 10vw;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Microsoft JhengHei;
+	text-align: center;
+	padding:30px;
+	line-height: 110%;
+	letter-spacing: 1px;
+}
+.text_member4{
+	color: #8283a7;
+	position: absolute;
+	left:18%;
+	top:166%;
+	border:5px dashed #a7a7a2 ;
+	border-radius: 3vw 10vw 3vw 10vw / 10vw 3vw 10vw 3vw;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Microsoft JhengHei;
+	text-align: center;
+	padding:30px;
+	line-height: 110%;
+	letter-spacing: 1px;
+}
+/*特效*/
+.swingVertical{
+    color: #474E51;
+}
+
+.swingVertical:hover
+{
+    animation: swingVertical 1s ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes swingVertical
+{
+    15%
+    {
+        transform: translateY(6px);
+    }
+    30%
+    {
+        transform: translateY(-6px);
+    }
+    50%
+    {
+        transform: translateY(4px);
+    }
+    65%
+    {
+        transform: translateY(-2px);
+    }
+    80%
+    {
+        transform: translateY(2px);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}

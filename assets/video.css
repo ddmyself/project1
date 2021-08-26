@@ -1,0 +1,132 @@
+/*影片介紹*/
+body{
+width:100%;
+margin:0 auto;
+font-family:Microsoft JhengHei;
+}
+
+#header{
+background-color: #77AAAD;
+padding:10px;
+text-align:left;
+font-family: DFKai-SB;
+}
+#nav{
+background-color: #6E7783;
+padding: 5px;
+text-align:left;
+font-size: 18px;
+word-spacing: 300px;
+font-family: DFKai-SB;
+}
+#section_video{
+width:100%;
+height:1700px;
+background-color:#D8E6E7;
+line-height: 1.5em;
+padding: 20px;
+float:right;
+}
+#footer{
+padding:0px;
+background-color:#9DC3C1;
+clear:both;
+}
+.end{
+text-align:center;
+}
+#header1{
+text-align:left;
+font-size:30px;
+padding-left:10px;
+}
+#nav1 ul li{
+display:inline;
+font-size: 25px;
+font-weight: bold;
+
+}
+p.title1{
+font-size: 36px;
+font-family:"微軟正黑體";
+text-shadow: 5px 3px 4px #7C7877;
+padding-bottom: 7%;
+position: absolute;
+top:60%;
+left:10%;
+margin-top: -200px;
+}
+p.title2{
+font-size: 36px;
+font-family:"微軟正黑體";
+text-shadow: 5px 3px 4px #7C7877;
+padding-bottom: 7%;
+position: absolute;
+top:100%;
+left:10%;
+}
+div.content{
+float:left;
+text-align: left;
+font-size: 25px;
+padding-left:20%;
+padding-right: 50%;
+padding-top:15%;
+font-family:"微軟正黑體";
+line-height: 1cm;
+}
+.video1{
+position: absolute;
+left: 55%;
+top: 50%;
+}
+.video2{
+position: absolute;
+left: 33%;
+top: 110%;
+}
+.img01{
+width:360px;
+height: 270px;
+overflow: hidden;
+position: absolute;
+left:3%;
+top:160%;
+
+}
+.img02{
+width:360px;
+height: 270px;
+overflow: hidden;
+position: absolute;
+left:27%;
+top:160%;
+}
+.img03{
+width:360px;
+height: 270px;
+overflow: hidden;
+position: absolute;
+left:51%;
+top:160%;
+}.img04{
+width:360px;
+height: 270px;
+overflow: hidden;
+position: absolute;
+left:76%;
+top:160%;
+}
+a:link {
+color:#FFFFFF;
+text-decoration:none;
+}
+a:visited {
+color:#FFFFFF;
+text-decoration:none;
+}
+
+/*特效*/
+.pic {transform:scale(1,1);
+transition: all 1s ease-out;}
+.pic:hover{transform:scale(1.2,1.2);}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="assets/link.css"/>
+		<link rel="stylesheet" href="assets/indexpic.css" type="text/css">
+		<link rel="stylesheet" href="assets/testcss.css" type="text/css">
+		
+	</head>
+	<body>
+		<header id="header">
+			<h1 id="header1"><a href="index.html" style="color:black" >中原大學</a></h1>
+		</header>
+
+		<nav id="nav">
+    		<div id="nav1">
+    		<ul>
+		　  <li><a href="pages/link.html">相關連結</a></li>
+		    <li><a href="pages/video.html">影片</a></li>
+		    <li><a href="pages/aboutus.html">關於我們</a></li>
+		    <li><a href="pages/contact.html">聯繫我們</a></li>
+		    </ul>
+		    </div>
+  		</nav>
+
+		
+		<div class="slideshow">
+			<div class="mySlides fade">
+				<img class="slider" src="assets/images/school.jpg" style="width:100% ">
+				
+			</div>
+			<div class="mySlides fade">
+				<img class="slider" src="assets/images/02.jpg" style="width:100%" >
+				
+			</div>
+			<div class="mySlides fade">
+				<img class="slider" src="assets/images/03.jpg" style="width:100%" >
+				
+			</div>
+			<div class="mySlides fade">
+				<img class="slider" src="assets/images/01.jpg" style="width:100%" >
+				
+			</div>
+		</div>
+		<form>
+			<div style="display: none;">
+				<span class="dot" ></span>
+				<span class="dot" ></span>
+				<span class="dot" ></span>
+			</div>
+		</form>
+		<script>
+		var slideIndex = 0;
+		showSlides();
+		function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}
+		for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " active";
+		setTimeout(showSlides, 2000);
+		}
+		</script>
+		<section id="green">
+			<h2 class="welcome">歡迎來到我們的網站</h2>
+			<h2 id="opacity">在這裡，你可以挖掘、探索中原大學豐富的學習資源。</h2>
+			<h2 id="down">This Is About CYCU.</h2>
+			
+		</section>
+		<!--圖片排版-->
+		<section id="test">
+			<h1><mark>接下來，你想找些什麼呢?</mark></h1>
+			<div class="container">
+				<div class="card">
+					<img src="assets/images/about.png" alt="" class="downpic">
+					<div class="info" onclick="location.href='pages/link.html';" style="cursor :pointer;">
+						
+						<p>給我最豐富的資源</p>
+					</div>
+				</div>
+				
+				
+				<div class="card" >
+					<img src="assets/images/video.png" alt="" class="downpic">
+					<div class="info" onclick="location.href='pages/video.html';" style="cursor :pointer;">
+						
+						<p>想來點視覺饗宴</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="assets/images/person.png" alt="" class="downpic">
+					<div class="info" onclick="location.href='pages/aboutus.html';" style="cursor :pointer;">
+						<p>我們的團隊</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="assets/images/feeback.png" alt="" class="downpic">
+					<div class="info" onclick="location.href='pages/contact.html';" style="cursor :pointer;">
+						<p>跟我們說點什麼吧!</p>
+					</div>
+				</div>
+				
+			</div>
+		</article>
+	</section>
+	<footer id="footer">
+		<div class="end">中原大學學習資源<br>320桃園市中壢區中北路200號 No.200, Zhongbei Rd., Zhongli Dist., Taoyuan City 320, Taiwan (R.O.C.)</div>
+		<div class="end"> Tel：+886-3-265-9999</div>
+	</footer>
+</body>
+</html>
